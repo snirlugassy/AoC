@@ -9,12 +9,6 @@ import (
 	"strings"
 )
 
-type NumberLocation struct {
-  row int
-  column int
-  number int
-}
-
 func read_input_matrix(input_file string) ([][]byte, error) {
 	file, err := os.Open(input_file)
 
